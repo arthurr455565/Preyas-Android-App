@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182051220495",
+    "project_id": "preyas-feca2",
+    "storage_bucket": "preyas-feca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182051220495:android:16ad5bc6f51fa1846cc77a",
+        "android_client_info": {
+          "package_name": "com.example.preyas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182051220495-ntnutsq60pufjvqplqpadvkr230jt9pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ1jzly69Nm9Gf6KMsfpXMR_6j3Kn-qsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182051220495-ntnutsq60pufjvqplqpadvkr230jt9pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

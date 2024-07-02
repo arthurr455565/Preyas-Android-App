@@ -1,0 +1,102 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient6"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="0"
+        android:src="@drawable/logo" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="59dp"
+        android:layout_weight="0"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bungee_shade"
+        android:gravity="center"
+        android:text="Hello!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FF5722"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="At PREYAS, we always strive to work hard to make your learning experience better. WE aim to change the way student prepare for the exam."
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="With the all new PREYAS APP, explore a whole new way of achieving your dream exam! Prepare for:"
+        android:layout_marginTop="220dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="AFCAT, CDS, SBI PO, NDA, SSC CGL"
+        android:layout_marginTop="300dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="59dp"
+        android:text="Start" />
+
+    <TextView
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="59dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="60dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="59dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</RelativeLayout>
